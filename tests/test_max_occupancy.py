@@ -6,7 +6,7 @@ Cases tied to the pending `peak_end` decision (longest window) are not covered y
 
 import unittest
 
-from max_occupancy import max_occupancy
+from main import max_occupancy
 
 
 class TestProvidedExamples(unittest.TestCase):
