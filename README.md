@@ -42,7 +42,7 @@ There are no dependencies to install and no virtual environment is required.
 Import `max_occupancy` from the repository root and call it with a list of `(start, end)` bookings:
 
 ```python
->>> from max_occupancy import max_occupancy
+>>> from main import max_occupancy
 >>> max_occupancy([(9, 10), (10, 11), (11, 12)])
 (1, 9, 10)
 >>> max_occupancy([])
