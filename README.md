@@ -4,10 +4,10 @@ The goal is to find the peak of concurrency in classes from a collection of book
 of `(start, end)` bookings, `max_occupancy` returns the maximum number of bookings that overlap at
 the same time, together with when that peak starts and ends.
 
-```python
->>> max_occupancy([(9, 12), (10, 13), (11, 14)])
-(3, 11, 12)
-```
+## Explanatory Video
+
+In the email sent, it is specified that I have to record a video explaining my code and the decisions taken.
+This is the link to the video: https://youtu.be/Hs5WEaHgQAE
 
 ## About this test
 
